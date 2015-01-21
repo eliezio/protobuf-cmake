@@ -16,6 +16,7 @@ append_if_exist(SOURCES
   ${PROTOBUF_ROOT}/src/google/protobuf/io/coded_stream.cc
   ${PROTOBUF_ROOT}/src/google/protobuf/io/gzip_stream.cc
   ${PROTOBUF_ROOT}/src/google/protobuf/io/printer.cc
+  ${PROTOBUF_ROOT}/src/google/protobuf/io/strtod.cc
   ${PROTOBUF_ROOT}/src/google/protobuf/io/tokenizer.cc
   ${PROTOBUF_ROOT}/src/google/protobuf/io/zero_copy_stream.cc
   ${PROTOBUF_ROOT}/src/google/protobuf/io/zero_copy_stream_impl.cc
