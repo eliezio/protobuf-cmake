@@ -87,6 +87,7 @@ append_if_exist(INSTALL_FILES_LIST
     ${PROTOBUF_ROOT}/src/google/protobuf/io/coded_stream.h
     ${PROTOBUF_ROOT}/src/google/protobuf/io/gzip_stream.h
     ${PROTOBUF_ROOT}/src/google/protobuf/io/printer.h
+    ${PROTOBUF_ROOT}/src/google/protobuf/io/strtod.h
     ${PROTOBUF_ROOT}/src/google/protobuf/io/tokenizer.h
     ${PROTOBUF_ROOT}/src/google/protobuf/io/zero_copy_stream.h
     ${PROTOBUF_ROOT}/src/google/protobuf/io/zero_copy_stream_impl.h
@@ -97,16 +98,21 @@ append_if_exist(INSTALL_FILES_LIST
     ${PROTOBUF_ROOT}/src/google/protobuf/repeated_field.h
     ${PROTOBUF_ROOT}/src/google/protobuf/service.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops.h
+    ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_arm64_gcc.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_arm_gcc.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_arm_qnx.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_atomicword_compat.h
+    ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_generic_gcc.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_macosx.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_mips_gcc.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_pnacl.h
+    ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_solaris.h
+    ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_tsan.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_x86_gcc.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/atomicops_internals_x86_msvc.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/common.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/once.h
+    ${PROTOBUF_ROOT}/src/google/protobuf/stubs/stl_util.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/platform_macros.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/template_util.h
     ${PROTOBUF_ROOT}/src/google/protobuf/stubs/type_traits.h
