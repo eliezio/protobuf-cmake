@@ -36,7 +36,7 @@ if(WIN32)
     # TODO: We don't properly build .dlls
     # http://www.cmake.org/Wiki/BuildingWinDLL
     # NOTE: findprotobuf doesn't work unless this is set to lib
-    set(LIB_DIR     lib)
+    set(LIB_DIR     lib/static/${CMAKE_BUILD_TYPE})
 else()
     set(LIB_DIR     lib)
 endif()
